@@ -1,0 +1,137 @@
+.content .img{margin: 0 1 1rem 0;
+padding-bottom: 1rem;
+padding-right: 1 rem;
+text-align: center;
+margin-right: 180px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #0a0a0a;
+}
+a {
+  text-decoration: none;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url("C:\Users\aditi\OneDrive\Desktop\minor_project\project_html\avtar.png");
+  background-size: cover;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+.logo {
+  max-height: 40px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #c7c7d5;
+  position: relative;
+  padding: 5px 0;
+}
+nav ul li a:hover {
+  color: #47f7fd;
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #47d6fd;
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+.btn {
+  color: #f0ebeb;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background: #43a6ad;
+  border: 2px solid #47ebfd;
+}
+.btn:hover {
+  background: transparent;
+  border-color: #fd4766;
+  color: #fd4766;
+}
+.content {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+.content .title {
+  color: #0a0a0a;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content h1 {
+    color: #0a0a0a;
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content p {
+  width: 55%;
+  color: #5fdcbb94;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.content .img{
+    float: right;
+    margin-left:20px
+}
+.text p{
+  margin-left: 40px;
+  color: #5fb8ef;
+  text-decoration: solid;
+  font-size: 40px;
+}
+.text ol{
+  margin-left: 40px;
+  color: rgb(193, 187, 178);
+}
+.text p1{
+  color:rgb(193, 187, 178) ;
+  margin-left: 40px;
+}
